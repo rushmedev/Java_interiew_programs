@@ -16,6 +16,9 @@ public class AMCAT_Automata_Trapezium {
                     System.out.println("");
                 }
             }
+            for (int m=i;m<=n;m++) {
+                System.out.print(" ");
+            }
         }
     }
 }
