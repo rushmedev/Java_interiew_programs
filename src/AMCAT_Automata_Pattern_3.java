@@ -9,9 +9,9 @@ public class AMCAT_Automata_Pattern_3 {
         int s = sc.nextInt();
         int t;
         if (s % 2 == 0) {
-            t = 2 * n;
+            t = 2 * s;
         } else
-            t = (2 * n) - 1;
+            t = (2 * s) - 1;
         for (int i = 1; i <= 2 * n; i++) {
             if (i <= n) {
                 for (int j = 1; j <= i; j++) {
